@@ -38,5 +38,6 @@ public class Main {
         float height2 = in2.nextFloat();
         System.out.printf("Name: %s  Age: %d  Height: %.2f \n", name2, age2, height2);
         in.close();
+        in2.close();
     }
 }
